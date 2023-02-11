@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    padding: 10px 20px;
+    background: linear-gradient(#5ea8e0,#3a99e0);
+    color: white;
+    font-family: serif;
+}
+
+.container{
+    width: 35vw;
+    height: 60vh;
+    margin: 3rem auto;
+    background: linear-gradient(#94c6ec,#3a99e0);
+    padding: 1rem;
+    text-align: center;
+}
+
+#location {
+    color: white;
+    padding: 0.4rem;
+    font-family: sans-serif;
+}
+
+#temperature{
+    color: white;
+    font-family: sans-serif;
+    padding-top: 0.2rem;
+}
+
+#other-details{
+    background-color: white;
+    margin: 0 2rem;
+    border: 1.5px solid grey;
+    border-radius: 10px;
+}
+
+#other-details p {
+    padding: 9px 0px;
+    color: gray;
+    font-size: 15px;
+}
+
+#btn{
+    padding: 8px;
+    background: linear-gradient(#94c6ec,#3a99e0);
+    border: none;
+    margin-top: 1rem;
+    border-radius: 4px;
+    color: white;
+    font-size: 14px;
+}
+
+#icon{
+    width: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+      background-color: rgb(184, 120, 42);
+    }
+  }
